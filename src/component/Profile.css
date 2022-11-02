@@ -1,0 +1,98 @@
+.profile_img {
+  height: 88px;
+  width: 88px;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+}
+
+.button-container button {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+  gap: 8px;
+  width: 1152px;
+  height: 76px;
+  background: #eaecf0;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.button-container :hover {
+  background-color: gray;
+  border-radius: 8px;
+}
+
+.profile-container ul {
+  margin: 0 0px 0 600px;
+}
+
+.button-container :link {
+  text-align: center;
+  text-decoration: none;
+}
+.social-link ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-link ul li {
+  display: inline;
+  align-items: center;
+}
+
+.social-link ul li img {
+  display: inline;
+  align-items: center;
+  padding: 10px;
+}
+
+@media (max-width: 390px) {
+  .profile{
+    align-items: center; 
+    height: auto;
+    width: auto;
+  }
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+   
+
+
+  }
+
+ 
+
+  .button-container button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px, 32px, 24px, 32px;
+    gap: 8px;
+    width: 313px;
+    height: 68px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+  }
+}

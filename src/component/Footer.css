@@ -1,0 +1,41 @@
+.footer{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #FFFFFF;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer ul li{
+    display: inline;
+
+  }
+
+.footer ul li img{
+  display: inline;
+  padding: 10px;
+  margin: 0 50px 0 100px;
+ 
+}
+
+@media (max-width: 375px){
+  .footer{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #FFFFFF;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+  }
+}
